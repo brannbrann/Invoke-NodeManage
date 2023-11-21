@@ -1,0 +1,73 @@
+{
+    "OUs": {
+        "OU=Testing,OU=Computers,DC=Contoso,DC=com": {
+            "enable": "True",
+            "update": {
+                "status": "True",
+                "dayofweek": "Tuesday",
+                "hour": 23
+            },
+            "managedapps": {
+                "status": "True",
+                "apps": {
+                    "sentinelone": "21.7.5.1081",
+                    "boxdrive": "2.25.307",
+                    "boxtools": "4.17.0.935"
+                }
+            },
+            "unmanagedapps": {
+                "status": "True",
+                "apps": {
+                    "googlechrome": "Latest",
+                    "firefox": "Latest",
+                    "notepadplusplus": "Latest"
+                },
+                "update": {
+                    "status": "True",
+                    "dayofweek": "Tuesday",
+                    "hour": 23
+                }
+            },
+            "reboottime": {
+                "status": "True",
+                "dayofweek": "Sunday",
+                "hour": 3
+            }
+        }
+    },
+    "computers": {
+        "BRANN-TESTER": {
+            "enable": "True",
+            "update": {
+                "status": "True",
+                "dayofweek": "Tuesday",
+                "hour": 23
+            },
+            "managedapps": {
+                "status": "True",
+                "apps": {
+                    "boxdrive": "2.25.307",
+                    "boxtools": "4.17.0.935"
+                }
+            },
+            "unmanagedapps": {
+                "status": "True",
+                "apps": {
+                    "googlechrome": "Latest",
+                    "firefox": "Latest",
+                    "notepadplusplus": "Latest"
+                },
+                "update": {
+                    "status": "True",
+                    "dayofweek": "Tuesday",
+                    "hour": 23
+                }
+            },
+            "reboottime": {
+                "status": "True",
+                "dayofweek": "Sunday",
+                "hour": 3
+            }
+        }
+    }
+}
